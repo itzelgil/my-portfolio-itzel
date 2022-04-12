@@ -1,0 +1,96 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+.homepage-section {
+  background: linear-gradient(
+    -35deg,
+    #5fad56,
+    #f2c14e,
+    #f78154,
+    #30dec1,
+    #de4c81
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.main-page {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20%;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+.name-ocupation {
+  font-weight: 200;
+  font-size: 34px;
+}
+
+.view-my-work-button {
+  margin: 10px;
+  border-radius: 4px;
+  padding: 15px 30px;
+  text-decoration: none;
+  background-color: #c373f5;
+  box-shadow: #b4436c;
+  color: white;
+  transition: background-color 0.5s;
+  font-size: 20px;
+}
+
+.view-my-work-button:hover {
+  text-decoration: none;
+  background-color: white;
+  color: #c373f5;
+}
+
+/* ABOUT ME PAGE */
+
+.about-me {
+  background-color: #ffffff;
+}
+
+.logo {
+  width: 70px;
+  height: 50px;
+}
+.navbar {
+  margin: 10;
+  background-color: #000000;
+  
+}
+
+.about-title {
+  margin: 30px;
+  font-size: 34px;
+}
+
+.about-me p {
+  font-weight: 200;
+}
+
+.profile {
+  border-radius: 200px;
+}
+.languages {
+  padding: 2px;
+  align-items: center;
+  padding-left: 5%;
+}
