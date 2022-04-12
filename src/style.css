@@ -74,7 +74,7 @@ h1 {
 .navbar {
   margin: 10;
   background-color: #000000;
-  
+  border-bottom: 4px solid #bf98f6;
 }
 
 .about-title {
@@ -84,6 +84,7 @@ h1 {
 
 .about-me p {
   font-weight: 200;
+  font-size: 18px;
 }
 
 .profile {
@@ -93,4 +94,5 @@ h1 {
   padding: 2px;
   align-items: center;
   padding-left: 5%;
+  padding-top: 10px;
 }
