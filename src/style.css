@@ -64,7 +64,7 @@ h1 {
 /* ABOUT ME PAGE */
 
 .about-me {
-  background-color: #ffffff;
+  background-color: #faf6f6;
 }
 
 .logo {
@@ -90,9 +90,119 @@ h1 {
 .profile {
   border-radius: 200px;
 }
-.languages {
-  padding: 2px;
-  align-items: center;
-  padding-left: 5%;
-  padding-top: 10px;
+
+.skills-header {
+  text-align: center;
+}
+
+.icon,
+.icons {
+  text-align: center;
+  padding: 1px;
+  font-size: 34px;
+  color: #bf98f6;
+  display: block;
+  margin: 0 auto;
+}
+
+.skills-div {
+  display: block;
+  margin: 0 auto;
+}
+
+/* CODING PROJECTS */
+
+.navbar-coding {
+  margin: 10;
+  background-color: #000000;
+  border-bottom: 4px solid #98d4f6;
+}
+
+.coding-projects {
+  background-color: #faf6f6;
+}
+
+.coding-title {
+  margin: 30px;
+  font-size: 34px;
+}
+
+.project-row {
+  width: 300px;
+  height: 350px;
+  display: inline;
+}
+
+.container-box {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 50vh;
+}
+
+.box {
+  flex: 1;
+  transition: 0.5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.box > span {
+  font-size: 2vh;
+  display: block;
+  text-align: center;
+  padding-top: 3%;
+  height: 2vh;
+  line-height: 2.6;
+  text-decoration: none;
+  color: black;
+}
+
+.box:hover {
+  flex: 1 1 50%;
+}
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
+
+.project-button {
+  color: #000;
+  margin: 10px;
+  border-radius: 4px;
+  padding: 15px 30px;
+  text-decoration: none;
+  background-color: #98d4f6;
+  box-shadow: #b4436c;
+  color: white;
+  transition: background-color 0.5s;
+  font-size: 18px;
+}
+
+.project-button:hover {
+  background-color: rgb(255, 255, 255);
+  color: #98d4f6;
+  border-width: 2px;
+  border-color: #30dec1;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #b4436c;
+}
+
+/* PHOTOGRAPHY */
+.navbar-photo {
+  margin: 10;
+  background-color: #000000;
+  border-bottom: 4px solid #dbf698;
 }
