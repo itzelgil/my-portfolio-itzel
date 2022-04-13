@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: black;
+  background-color: #faf6f6;
 }
 .homepage-section {
   background: linear-gradient(
@@ -175,7 +176,7 @@ h1 {
   height: 100%;
 }
 
-.project-button {
+/* .project-button {
   color: #000;
   margin: 10px;
   border-radius: 4px;
@@ -186,14 +187,14 @@ h1 {
   color: white;
   transition: background-color 0.5s;
   font-size: 18px;
-}
+} */
 
-.project-button:hover {
+/* .project-button:hover {
   background-color: rgb(255, 255, 255);
   color: #98d4f6;
   border-width: 2px;
   border-color: #30dec1;
-}
+} */
 
 a:hover {
   text-decoration: none;
