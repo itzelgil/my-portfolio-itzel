@@ -251,3 +251,31 @@ p {
 
 /* CONTACT */
 
+.navbar-contact {
+  margin: 10;
+  background-color: #000000;
+  border-bottom: 4px solid #fb8f67;
+}
+
+.contact {
+  background-color: #faf6f6;
+}
+
+.email,
+.social {
+  text-align: center;
+  font-size: 18px;
+}
+
+.email a {
+  color: #fb8f67;
+}
+
+.social {
+  font-size: 24px;
+  margin: 5px 0 0;
+}
+
+.social i {
+  color: #fb8f67;
+}
