@@ -64,10 +64,6 @@ h1 {
 
 /* ABOUT ME PAGE */
 
-.about-me {
-  background-color: #faf6f6;
-}
-
 .logo {
   width: 70px;
   height: 50px;
@@ -256,10 +252,6 @@ p {
   margin: 10;
   background-color: #000000;
   border-bottom: 4px solid #fb8f67;
-}
-
-.contact {
-  background-color: #faf6f6;
 }
 
 .email,
