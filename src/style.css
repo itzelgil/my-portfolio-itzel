@@ -357,3 +357,14 @@ p {
     transform: translateY(0);
   }
 }
+
+.signature{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.signature a{
+  text-decoration: none;
+  color: #6db8d3;
+}
