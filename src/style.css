@@ -34,7 +34,7 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding-top: 30%;
+  padding-top: 15%;
 }
 
 h1 {
@@ -81,6 +81,17 @@ h1 {
 .about-title {
   margin: 30px;
   font-size: 42px;
+}
+
+.about-title:after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 4px;
+  background: #bf98f6;
+  margin: 0 auto;
+  margin-top: 7px;
+  border-radius: 3px;
 }
 
 .about-me p {
@@ -166,6 +177,17 @@ h1 {
   text-align: center;
 }
 
+.coding-title:after {
+  content: "";
+  display: block;
+  width: 300px;
+  height: 4px;
+  background: #90f2e1;
+  margin: 0 auto;
+  margin-top: 7px;
+  border-radius: 3px;
+}
+
 .project-grid {
   padding: 30px;
   columns: 2;
@@ -190,7 +212,7 @@ h1 {
 .button:hover {
   animation: pulsate 1s ease-in-out;
   text-decoration: none;
-  color: #d8728a;
+  color: #ffff;
 }
 
 @keyframes pulsate {
@@ -208,6 +230,17 @@ h1 {
   font-size: 42px;
   text-align: center;
   margin: 30px;
+}
+
+.photo-title:after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 4px;
+  background: #d8728a;
+  margin: 0 auto;
+  margin-top: 7px;
+  border-radius: 3px;
 }
 
 .life {
@@ -258,6 +291,23 @@ p {
   margin: 10;
   background-color: #000000;
   border-bottom: 4px solid #6db8d3;
+}
+
+.contact-title {
+  font-size: 42px;
+  text-align: center;
+  margin: 30px;
+}
+
+.contact-title:after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 4px;
+  background: #6db8d3;
+  margin: 0 auto;
+  margin-top: 7px;
+  border-radius: 3px;
 }
 
 .email,
