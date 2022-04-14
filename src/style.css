@@ -1,7 +1,9 @@
 body {
   font-family: "Poppins", sans-serif;
   color: black;
-  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  height: 100vh;
+  width: auto;
 }
 .homepage-section {
   background: linear-gradient(
@@ -92,12 +94,53 @@ h1 {
   text-align: center;
 }
 
+.icon{
+  display: inline-block;
+  font-size: 40px;
+  animation: float 5s ease-in-out infinite;
+}
+
+.fa-html5 {
+  animation-delay: 1s;
+}
+.fa-css3-alt{
+animation-delay: 2s;
+}
+
+.fa-js{
+animation-delay: 3s;
+}
+
+.fa-bootstrap{
+animation-delay: 4s;
+}
+.fa-figma{
+  animation-delay: 5s;
+}
+
+.fa-github{
+  animation-delay: 6s;
+}
+
+@keyframes float {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-15px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+
 .icon,
 .icons {
   text-align: center;
   padding: 1px;
   font-size: 34px;
-  color: #bf98f6;
+  color: #ffffff;
   display: block;
   margin: 0 auto;
 }
@@ -208,7 +251,8 @@ p {
 }
 
 .email a {
-  color: #fb8f67;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .social {
@@ -217,5 +261,5 @@ p {
 }
 
 .social i {
-  color: #fb8f67;
+  color: #ffffff;
 }
